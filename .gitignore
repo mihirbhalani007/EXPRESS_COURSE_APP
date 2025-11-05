@@ -1,0 +1,65 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Build output
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.cache/
+tmp/
+temp/
+
+# Dependency directories
+jspm_packages/
+
+# Environment variables
+.env
+.env.test
+.env.development
+.env.production
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: Ignore database files if local dev uses SQLite, etc.
+*.sqlite
+*.sqlite3
+
+# Optional: Ignore uploads if stored locally
+uploads/
+public/uploads/
+
+# Optional: Ignore testing artifacts
+test-results/
+coverage-final.json

@@ -1,0 +1,23 @@
+{
+  "name": "3.-understanding-the-basics",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Mihir Bhalani",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "pug": "^3.0.3"
+  }
+}
